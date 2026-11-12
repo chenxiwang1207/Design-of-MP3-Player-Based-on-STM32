@@ -280,7 +280,7 @@ void drv_uart_init(user_uart_e serial,serial_configure_t *config)
     return;
   }
   USART_TypeDef* USARTx = usart_dma_numbers[serial].serial_ports_t;
-  uart_modes[serial]    = config->usart_mode;  //保存模式参数
+  uart_modes[serial]    = config[serial].usart_mode;  //保存模式参数
 
   drv_gpio_open(config->tx_pin);
   drv_gpio_config(config->tx_pin, DRV_GPIO_Mode_AF_PP, DRV_Speed_HIGH);

@@ -1,0 +1,4 @@
+--c99 -c --cpu Cortex-M3 --li -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Library -I .\app -I .\User -I .\System -I .\Hardware -I .\dirve\Inc -I .\device\RTC -I .\device\button -I .\device\delay -I .\device\SDCard -I .\device\VS1053 -I .\device\W25Q64 -I .\device\common -I .\platform_config -I .\FATFS
+-IC:\Users\MCM-21\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include
+-D__UVISION_VERSION="537" -DARMCM3 -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d "Library\stm32f10x_cec.c"

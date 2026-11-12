@@ -1,0 +1,8 @@
+[
+{
+  "directory": "E:/0_CXW/project/githouse/test_git/Design-of-MP3-Player-Based-on-STM32/out/build/test",
+  "command": "E:\\0_CXW\\download\\gcc\\mingw64\\bin\\gcc.exe   -g -o CMakeFiles\\test.dir\\main.c.obj -c E:\\0_CXW\\project\\githouse\\test_git\\Design-of-MP3-Player-Based-on-STM32\\main.c",
+  "file": "E:/0_CXW/project/githouse/test_git/Design-of-MP3-Player-Based-on-STM32/main.c",
+  "output": "CMakeFiles/test.dir/main.c.obj"
+}
+]

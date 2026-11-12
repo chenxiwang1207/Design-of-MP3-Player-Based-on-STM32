@@ -29,7 +29,7 @@
 #define BOOT_FIRMWARE_ADDR                  MCU_FLASH_INT_BASE
 #define BOOT_FIRMWARE_SIZE                  (0 * 1024)
 
-//core 区 250K
+//core 区 254K
 #define CORE_FIRMWARE_ADDR                  (BOOT_FIRMWARE_ADDR + BOOT_FIRMWARE_SIZE)
 #define CORE_FIRMWARE_SIZE                  (254 * 1024)
 

@@ -1,0 +1,4 @@
+--cpu Cortex-M3 --li -g --apcs=interwork -I ..\keil5
+-IC:\Users\MCM-21\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include
+--pd "__UVISION_VERSION SETA 537" --pd "ARMCM3 SETA 1"
+--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d "Start\startup_stm32f10x_md.s"
